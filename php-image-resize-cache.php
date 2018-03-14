@@ -3,7 +3,7 @@
 Createad by Bruno Oliveira(brunoczo@hotmail.com) 14/03/2018
 */
 
-$FILE_BASE = "img-rezise/";
+$FILE_BASE = "img-resize/";
 $RESIZE_VALUE = 600;
 
 
