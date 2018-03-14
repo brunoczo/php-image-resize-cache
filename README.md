@@ -1,4 +1,4 @@
-# php-image-rezise-cache
+# php-image-resize-cache
 Fast php resizing image with cache.(Can by used with apache or other server php)
 
 # Rezise Value
