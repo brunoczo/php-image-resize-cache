@@ -3,6 +3,7 @@ Fast php resizing image with cache.(Can by used with apache or other server php)
 
 # Rezise Value
 Default resize value is 600px.
+
 To change this, modify the variable $REZISE_VALUE = 600;
 
 Example:
