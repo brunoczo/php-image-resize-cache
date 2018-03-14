@@ -4,7 +4,7 @@ Createad by Bruno Oliveira(brunoczo@hotmail.com) 14/03/2018
 */
 
 $FILE_BASE = "img-rezise/";
-$REZISE_VALUE = 600;
+$RESIZE_VALUE = 600;
 
 
 function resize_image($file, $w, $h,$type, $crop=FALSE) {
@@ -84,9 +84,9 @@ if(file_exists($file_path)){
 }else{
 
   if( isPNG($url) ){
-    $img = resize_image($url ,$REZISE_VALUE, $REZISE_VALUE,"PNG");
+    $img = resize_image($url ,$RESIZE_VALUE, $RESIZE_VALUE,"PNG");
   }else{
-        $img = resize_image($url ,$REZISE_VALUE, $REZISE_VALUE,"JPG");
+        $img = resize_image($url ,$RESIZE_VALUE, $RESIZE_VALUE,"JPG");
   }
 
   saveFile($file_path,$img);
@@ -95,8 +95,5 @@ if(file_exists($file_path)){
   imagejpeg($img);
 
 }
-
-
-
 
 ?>
